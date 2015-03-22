@@ -14,13 +14,15 @@ class Test
 				System.out.println("Enter your option");
 				System.out.println("1.Deposit\n2.Withdraw\n3.Exit");
 				myOption = scanInt();
-				if(myOption == 1){
+				
+				Options option = Options.getByValue(myOption);
+				if(option == Options.Deposit){
 					System.out.println("How much are you depositing ?");
 					int depositAmt = scanInt();
 					account.depositAmount(depositAmt);
 					System.out.println("Present Balance "+account.getBalance());
 				}
-				else if (myOption == 2){
+				else if (option == Options.Withdraw){
 					System.out.println("How much are you drawing ?");
 					int drawAmt = scanInt();
 					try {
@@ -29,11 +31,16 @@ class Test
 						System.out.println("Oh boy... I don't have funds...");
 					}
 					System.out.println("Present Balance "+account.getBalance());
+				} else if(option == Options.Exit) {
+					
+				} else {
+					
 				}
 				
 			}
 
-		System.out.println("Present Balance "+account.getBalance());
+		System.out.println("Final Balance "+account.getBalance());
+		System.out.println("\nThank you");
 	
 	}
 	
