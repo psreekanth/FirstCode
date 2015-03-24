@@ -6,6 +6,7 @@ class Test
 	static int input;
 	public static void main(String [] arg) 
 	{	
+		
 		Account account = new Account(1000,10000);
 		System.out.println("Previous Balance "+account.getBalance());
 		int myOption=10;

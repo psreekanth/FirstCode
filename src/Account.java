@@ -3,8 +3,10 @@ public class Account
 	private int accNo, balance;
 	
 	public Account(int a,int b) {
-		accNo=a;
+		accNo = a;
 		balance=b;
+		
+		Test2 test2 = new Test2();
 	}
 	public int getBalance(){
 		return balance;
@@ -36,7 +38,14 @@ public class Account
 		return;
 	}
 	
+	public int getAccNo() {
+		return accNo;
+	}
+
+	public class Test2{
+		
+	}
+
+
+
 }
-
-
-
