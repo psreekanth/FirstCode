@@ -1,4 +1,4 @@
-package me.sreekanth.test;
+package me.sreekanth.eaccount;
 
 public class Eaccounts {
 	private long accountnumber;

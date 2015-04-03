@@ -1,4 +1,4 @@
-package me.sreekanth.test;
+package me.sreekanth.eaccount;
 import java.io.*;
 import java.sql.Connection;
 import java.sql.DriverManager;

@@ -1,4 +1,4 @@
-package me.sreekanth.test;
+package me.sreekanth.account;
 public class Account
 {
 	private int accNo, balance;

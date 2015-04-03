@@ -1,4 +1,4 @@
-package me.sreekanth.test;
+package me.sreekanth.eaccount;
 import java.io.IOException;
 import java.io.PrintWriter;
 import javax.servlet.*;

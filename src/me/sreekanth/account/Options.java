@@ -1,4 +1,4 @@
-package me.sreekanth.test;
+package me.sreekanth.account;
 
 public enum Options {
 	Deposit(1), Withdraw(2), Exit(3);

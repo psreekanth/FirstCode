@@ -1,4 +1,4 @@
-package me.sreekanth.test;
+package me.sreekanth.account;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 class Test
