@@ -1,3 +1,4 @@
+package me.sreekanth.test;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 class Test
